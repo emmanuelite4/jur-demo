@@ -1,32 +1,30 @@
-# Getting Started with Create React App
+# Frontend Coding Assignment - Jur.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table Of Contents
 
-## Available Scripts
+- [Requirements](#requirements)
+- [Running locally](#running-locally)
 
-In the project directory, you can run:
+## Requirements
 
-### `yarn start`
+This application requires [Node.js] 8+
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Running locally
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Install dependencies:
 
-### `yarn test`
+   ```sh
+   yarn
+     ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more
-information.
+2. Start development server: To start the application in development mode. The port is 3000 by default
+   ```sh
+   yarn start
+     ```
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Production build: To create a minified build for production usage
+   ```sh
+   yarn build
+     ```
 
 **Note: Do not refresh the browser while navigating in the app**
-
